@@ -1,0 +1,18 @@
+
+# Aca se nombran todo los archivos que no quiero que suban al repositorio, por ejemplo:
+
+> Se puede nombrar un archivo en específico, como por ejemplo:
+machete.txt
+
+> O se puede usar el comodin * para nombrar a todos los archivos de un tipo, por ejemplo:
+*.txt
+*.pdf
+*.jpg
+
+> También se pueden nombrar carpetas completas, por ejemplo:
+/node_modules
+/dist
+
+# NUNCA COLOCAR LOS ARCHIVOS *.json *.env 
+
+
