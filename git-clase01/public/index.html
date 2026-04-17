@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Tienda Online</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .producto {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .producto:hover {
+      transform: translateY(-5px);
+    }
+
+    .producto-imagen {
+      width: 100%;
+      height: 200px;
+      background-color: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+    }
+
+    .producto-info {
+      padding: 15px;
+    }
+
+    .producto-nombre {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .producto-precio {
+      color: #e74c3c;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #229954;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Mi Tienda Online</h1>
+    <p>Los mejores productos a los mejores precios</p>
+  </header>
+
+  <div class="container">
+    <div class="productos">
+      <div class="producto">
+        <div class="producto-imagen">📱</div>
+        <div class="producto-info">
+          <div class="producto-nombre">Smartphone X</div>
+          <div class="producto-precio">$499</div>
+          <button>Agregar al carrito</button>
+        </div>
+      </div>
+
+      <div class="producto">
+        <div class="producto-imagen">⌚</div>
+        <div class="producto-info">
+          <div class="producto-nombre">Smartwatch Pro</div>
+          <div class="producto-precio">$199</div>
+          <button>Agregar al carrito</button>
+        </div>
+      </div>
+
+      <div class="producto">
+        <div class="producto-imagen">🎧</div>
+        <div class="producto-info">
+          <div class="producto-nombre">Auriculares Inalámbricos</div>
+          <div class="producto-precio">$99</div>
+          <button>Agregar al carrito</button>
+        </div>
+      </div>
+
+      <div class="producto">
+        <div class="producto-imagen">💻</div>
+        <div class="producto-info">
+          <div class="producto-nombre">Laptop Ultra</div>
+          <div class="producto-precio">$899</div>
+          <button>Agregar al carrito</button>
+        </div>
+      </div>
+
+      <div class="producto">
+        <div class="producto-imagen">📷</div>
+        <div class="producto-info">
+          <div class="producto-nombre">Cámara Digital</div>
+          <div class="producto-precio">$599</div>
+          <button>Agregar al carrito</button>
+        </div>
+      </div>
+
+      <div class="producto">
+        <div class="producto-imagen">🖱️</div>
+        <div class="producto-info">
+          <div class="producto-nombre">Mouse Gaming</div>
+          <div class="producto-precio">$49</div>
+          <button>Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
