@@ -4,6 +4,9 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+// importamos el componete Navbar que creamos en el ejercicio anterior
+import Navbar from './componentes/Navbar'
+
 function App() {
   const [count, setCount] = useState(0)
 
